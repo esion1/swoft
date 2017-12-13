@@ -13,14 +13,15 @@ use \Swoft\App;
 
 // 注册别名
 $aliases = [
-    '@root'       => BASE_PATH,
-    '@app'        => '@root/app',
-    '@res'        => '@root/resources',
-    '@runtime'    => '@root/runtime',
-    '@configs'    => '@root/config',
-    '@resources'  => '@root/resources',
-    '@beans'      => '@configs/beans',
+    '@root' => BASE_PATH,
+    '@app' => '@root/app',
+    '@res' => '@root/resources',
+    '@runtime' => '@root/runtime',
+    '@configs' => '@root/config',
+    '@resources' => '@root/resources',
+    '@beans' => '@configs/beans',
     '@properties' => '@configs/properties',
-    '@commands'   => '@app/Commands'
+    '@commands' => '@app/Commands',
+    '@swagger' => '@root/vendor/swoft/Swagger',
 ];
 App::setAliases($aliases);

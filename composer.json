@@ -10,7 +10,8 @@
     "license": "apache2.0",
     "require": {
         "php": ">=7.0",
-        "swoft/framework": "dev-master"
+        "swoft/framework": "dev-master",
+        "zircote/swagger-php": "^2.0"
     },
     "autoload": {
         "classmap": [],
